@@ -7,10 +7,10 @@ public class Exercicio3 {
         System.out.print("Digite um nome para inverter: ");
         String nome = scanner.nextLine();
 
-        // Convertendo para vetor de caracteres
+
         char[] caracteres = nome.toCharArray();
 
-        // Invertendo o vetor usando variável auxiliar
+
         int inicio = 0;
         int fim = caracteres.length - 1;
 
@@ -23,7 +23,7 @@ public class Exercicio3 {
             fim--;
         }
 
-        // Exibindo o resultado convertido de volta para String
+
         String nomeInvertido = new String(caracteres);
         System.out.println("Nome invertido: " + nomeInvertido);
 
